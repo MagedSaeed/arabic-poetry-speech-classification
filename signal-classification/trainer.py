@@ -1,6 +1,7 @@
 from typing import Any, Dict, Union
 
 import torch
+from torch import nn
 from transformers import Trainer
 
 

@@ -3,6 +3,8 @@ from typing import Any, Dict, List, Optional, Union
 
 import torch
 
+from processors import CustomWav2Vec2Processor
+
 
 def list_field(default=None, metadata=None):
     return field(default_factory=lambda: default, metadata=metadata)
