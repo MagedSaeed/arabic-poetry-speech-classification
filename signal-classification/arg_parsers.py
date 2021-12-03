@@ -168,7 +168,6 @@ class DataCollatorCTCWithPadding:
         ]
 
         def onehot(lbl):
-            print(lbl)
             onehot = [0] * 16
             onehot[int(lbl)] = 1
             return onehot
